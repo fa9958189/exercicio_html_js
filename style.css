@@ -1,0 +1,75 @@
+/* Estilo global */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Container que envolve o formulário */
+  .container {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 8px;
+    border: 2px solid white;
+    text-align: center;
+    width: 300px;
+  }
+  
+  /* Estilo do formulário */
+  form {
+    margin: 0;
+  }
+  
+  /* Estilo das mensagens */
+  .mensagem {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  /* Cor da mensagem positiva */
+  .positivo {
+    color: green;
+  }
+  
+  /* Cor da mensagem negativa */
+  .negativo {
+    color: red;
+  }
+  
+  /* Estilo do botão */
+  button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  
+  /* Estilo dos campos do formulário */
+  input[type="number"] {
+    background-color: #333;
+    border: 1px solid white;
+    color: white;
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  input[type="number"]:focus {
+    outline: none;
+    border-color: blue;
+  }
+  
